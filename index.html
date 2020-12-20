@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Final Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <main class="container">
+        <h1 class="main-title">
+          <div
+            class="tenor-gif-embed musical-pictures2"
+            data-postid="17582371"
+            data-share-method="host"
+            data-aspect-ratio="1.0"
+          >
+            <a
+              href="https://tenor.com/view/pug-dog-doggo-adorable-dancing-gif-17582371"
+              >Pug Dog GIF</a
+            >
+            from <a href="https://tenor.com/search/pug-gifs">Pug GIFs</a>
+          </div>
+          <script
+            type="text/javascript"
+            async
+            src="https://tenor.com/embed.js"
+          ></script>
+
+          🦆 Patricia Musical Project 🦆
+
+          <div
+            class="tenor-gif-embed musical-pictures2"
+            data-postid="18917102"
+            data-share-method="host"
+            data-aspect-ratio="1.0"
+          >
+            <a
+              href="https://tenor.com/view/dance-dancing-dancing-dog-happy-dog-gif-18917102"
+              >Dance Dancing GIF</a
+            >
+            from <a href="https://tenor.com/search/dance-gifs">Dance GIFs</a>
+          </div>
+          <script
+            type="text/javascript"
+            async
+            src="https://tenor.com/embed.js"
+          ></script>
+        </h1>
+
+        <h1 class="main-title">
+          Static controller-to-file connections (Challenge level: 1-2)
+        </h1>
+
+        <div class="imag-list container">
+          <div class="musical-group container">
+            <img
+              id="play11"
+              class="musical-pictures"
+              src="https://previews.123rf.com/images/violin/violin1502/violin150200006/36181245-classical-acoustic-guitar-isolated-on-white-background.jpg"
+              alt="Guitar"
+            />
+            <div id="status1" style="color: red">Status: Loading</div>
+            <button class="btn btn-primary" id="play1">Play (A)</button>
+            <button class="btn btn-danger" id="pause1">Pause (Z)</button>
+          </div>
+
+          <div class="musical-group container">
+            <img
+              id="play22"
+              class="musical-pictures"
+              src="https://previews.123rf.com/images/4zevar/4zevar1505/4zevar150500046/40282517-piano.jpg"
+              alt="Piano"
+            />
+            <div id="status2" style="color: red">Status: Loading</div>
+            <button class="btn btn-primary" id="play2">Play (S)</button>
+            <button class="btn btn-danger" id="pause2">Pause (X)</button>
+          </div>
+        </div>
+        <div class="imag-list container">
+          <div class="musical-group container">
+            <img
+              id="play33"
+              class="musical-pictures"
+              src="https://previews.123rf.com/images/larysaray/larysaray1504/larysaray150400599/38914411-grunge-drums.jpg"
+              alt="Drum"
+            />
+            <div id="status3" style="color: red">Status: Loading</div>
+            <button class="btn btn-primary" id="play3">Play (D)</button>
+            <button class="btn btn-danger" id="pause3">Pause (C)</button>
+          </div>
+
+          <div class="musical-group container">
+            <img
+              id="play44"
+              class="musical-pictures"
+              src="https://previews.123rf.com/images/tonok/tonok1509/tonok150900064/46176434-hand-sketch-saxophone.jpg"
+              alt="Saxophone"
+            />
+            <div id="status4" style="color: red">Status: Loading</div>
+            <button class="btn btn-primary" id="play4">Play (F)</button>
+            <button class="btn btn-danger" id="pause4">Pause (V)</button>
+          </div>
+        </div>
+
+        <h1 class="main-title new-topic">
+          Dynamically loaded files (Challenge level: 2-4)
+        </h1>
+        <container class="part2">
+
+          <form class="play-musiclist">
+
+            <label>Choose a music:</label>
+            <select name="music-selected" id="music-seletec-id">
+              <option value="none">choose a music</option>
+              <option value="Music1">Losing my Religion</option>
+              <option value="Music2">I don't Care</option>
+                <option value="Music3">Shape of You</option>
+           
+              
+              </select>
+
+            <div class="play-btn-space">
+              <input class="btn btn-primary"  type="submit" value="Play"/>
+              <button class="btn btn-danger">Pause</button>
+              <button class="btn btn-danger">Skip</button>
+            </div>
+
+          </form>
+          <div id="music_list">
+            <audio controls autoplay></audio>
+          </div>
+
+        </container>
+
+
+
+      </main>
+      <footer>@Pat Production - Copyright 2020</footer>
+      <script src="script.js" async defer></script>
+    </div>
+  </body>
+</html>
